@@ -1,0 +1,129 @@
+:root {
+  --background: #e5e5e5;
+  --activecolor: #2196f3;
+  --footercolor: #2f303a;
+  --hedercolor: #fff;
+  --textcolor: #757575;
+  --headtext: #212121;
+  --filterbutt: #f5f4fa;
+}
+body {
+  background-color: var(--hedercolor);
+  color: var(--textcolor);
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7em;
+  letter-spacing: 0.03em;
+}
+a {
+  font-family: Roboto;
+  text-decoration: none;
+}
+header {
+  font-weight: 500;
+}
+.logo {
+  color: var(--activecolor);
+  line-height: 1.2em;
+  font-size: 26px;
+  font-family: raleway;
+  font-weight: 700;
+}
+.logopart {
+  color: var(--headtext);
+}
+.navi .nav {
+  color: var(--headtext);
+  letter-spacing: 0.02em;
+}
+.navi .nav:hover,
+.navi .nav:focus {
+  color: var(--activecolor);
+}
+.contact a {
+  color: var(--textcolor);
+}
+.contact a:hover,
+.contact a:focus {
+  color: var(--activecolor);
+}
+.banner {
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  background-color: var(--footercolor);
+}
+.hero {
+  color: var(--hedercolor);
+  font-size: 44px;
+  line-height: 1.36em;
+  text-align: center;
+  font-weight: 900;
+}
+.banner .hero-button {
+  background-color: var(--activecolor);
+  color: var(--hedercolor);
+  cursor: pointer;
+}
+.advantages-head {
+  color: var(--headtext);
+  font-weight: 700;
+  line-height: 1.14em;
+}
+.team {
+  background-color: var(--background);
+}
+.title {
+  color: var(--headtext);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2em;
+  align-items: center;
+}
+.name {
+  color: var(--headtext);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.2em;
+}
+.position {
+  font-size: 16px;
+  line-height: 1.2em;
+}
+footer {
+  background-color: var(--footercolor);
+}
+.logofoot {
+  color: #fff;
+}
+.address {
+  font-style: normal;
+  color: var(--hedercolor);
+}
+.live-cont {
+  font-style: normal;
+  color: #ffffff99;
+}
+.filter {
+  background-color: var(--filterbutt);
+  color: var(--headtext);
+  text-align: center;
+  cursor: pointer;
+}
+.filter:hover,
+.filter:focus {
+  background-color: var(--activecolor);
+  color: var(--hedercolor);
+}
+.project {
+  color: var(--headtext);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2em;
+  letter-spacing: 0.06em;
+}
+.title-project p {
+  font-size: 16px;
+  line-height: 1.87em;
+}
