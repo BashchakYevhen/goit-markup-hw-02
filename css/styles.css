@@ -101,9 +101,17 @@ footer {
   font-style: normal;
   color: var(--hedercolor);
 }
+.address:hover,
+.address:focus {
+  color: var(--activecolor);
+}
 .live-cont {
   font-style: normal;
   color: #ffffff99;
+}
+.live-cont:focus,
+.live-cont:hover {
+  color: var(--activecolor);
 }
 .filter {
   background-color: var(--filterbutt);
